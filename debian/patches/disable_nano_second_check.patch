@@ -1,7 +1,7 @@
-diff --git a/src/fccache.c b/src/fccache.c
-index 6f3c68a..373d771 100644
---- a/src/fccache.c
-+++ b/src/fccache.c
+Index: fontconfig-2.12.3/src/fccache.c
+===================================================================
+--- fontconfig-2.12.3.orig/src/fccache.c
++++ fontconfig-2.12.3/src/fccache.c
 @@ -44,6 +44,8 @@
  #endif
  
