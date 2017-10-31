@@ -1,3 +1,4 @@
+disable_nano_second_check.patch
 02_indic_names.patch
 03_locale_c.utf8.patch
 04_mgopen_fonts.patch
