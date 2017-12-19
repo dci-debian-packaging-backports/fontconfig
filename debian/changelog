@@ -1,3 +1,20 @@
+fontconfig (2.12.6-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release (Closes: #881278, #869584)
+    - Drop debian/patches/03_locale_c.utf8.patch and
+      debian/patches/06_cross.patch: applied upstream
+  * debian/control:
+    - Bump Standards-Version to 4.1.1 (no further changes)
+    - Use the priority optional instead of extra, the later is deprecated
+  * debian/rules: Use ?= instead of = operator to assign DEB_BUILD_GNU_TYPE to
+    please lintian
+  * debian/po/fr.po: Update French debconf translations (Closes: #873121)
+  * debian/po/nl.po: Update Dutch debconf translations (Closes: #874277)
+  * debian/watch: Use https:// to watch new upstream releases
+
+ -- Laurent Bigonville <bigon@debian.org>  Thu, 09 Nov 2017 16:45:04 +0100
+
 fontconfig (2.12.3-0.2) unstable; urgency=medium
 
   * Non-maintainer upload.
